@@ -7,11 +7,14 @@ Gestionnaire Libre de Parc Informatique (GLPI) is a Free Asset and IT Management
 
 https://github.com/glpi-project/glpi
 
+## Requirements
+
+You need to be super administrator of glpi to add the plugin and perform the rce.<br>The default login is **glpi / glpi**
+
 ## Exploitation 
 
 The technique consists in using a plugin which allows to execute commands on the system like ping or tracert and to divert it towards the reverse shell for example.
 
-You need to be super administrator of glpi to add the plugin and perform the rce.<br>The default login is **glpi / glpi**
 
 Initially you must add a key "GLPI network" in the general parameters of glpi what gives the rights to add extensions, you have just to create an account for free on the site of glpi and to copy paste the key.
 
